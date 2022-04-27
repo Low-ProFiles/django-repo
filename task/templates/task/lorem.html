@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Quiz 4</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        #logo {
+            font-size: 16pt;
+        }
+
+        #top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0px;
+            background-color: aliceblue;
+            border-bottom: 0.5px solid black;
+            padding-left: 30px;
+            padding-right: 30px;
+            box-sizing: border-box;
+        }
+
+        #user-actions {
+            display: flex;
+            width: 250px;
+            justify-content: space-between;
+        }
+
+        #random-content-body {
+            width: 75vw;
+            margin: auto;
+        }
+
+        #chat-button {
+            position: fixed;
+            /* bottom: 25px; */
+            right: 25px;
+            font-size: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: dodgerblue;
+            border: 10px solid cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <div id="top-bar">
+        <p id="logo">Lorem Ipsum</p>
+        <div id="user-actions">
+            <p><a href="/task/index/">뒤로가기</a></p>
+            <p>로그인</p>
+            <p>회원가입</p>
+        </div>
+    </div>
+    <div id="random-content-body">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id malesuada mi, sed interdum dui. Ut ut eros aliquet magna scelerisque consequat. Donec scelerisque eget leo at dignissim. Phasellus tristique lectus ante, ac mollis odio iaculis vitae. Vivamus blandit, enim vel varius consequat, nulla dui facilisis ante, eget bibendum sem augue at odio. Ut viverra efficitur congue. Nulla facilisi. Nullam vulputate urna sit amet lacus consequat, ac convallis sapien pellentesque. Donec efficitur lacinia egestas.
+            </p>
+            <p>
+            Vivamus non est nec augue rutrum blandit et ut nibh. Fusce rutrum auctor dui non sagittis. Aliquam in mollis tortor. Ut nec sagittis justo. Etiam sed mollis metus. Vivamus congue diam quis magna dignissim, vitae ullamcorper libero ultricies. Aenean diam magna, dignissim a ligula at, semper luctus nibh. Nunc auctor neque ac dui porttitor fringilla. Curabitur quis faucibus nisl, vitae faucibus eros.
+            </p>
+            <p>
+            Proin quis accumsan magna, efficitur aliquet leo. Suspendisse lectus turpis, mattis sed consequat nec, faucibus egestas nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam est aliquam justo pulvinar fermentum. Nam eu scelerisque tortor. Duis rhoncus erat sit amet ligula euismod tincidunt. Sed tortor ante, fermentum non sem ut, euismod eleifend tellus. Ut ullamcorper erat justo, et suscipit dolor sollicitudin vitae. Morbi luctus augue sit amet odio aliquam vestibulum. Donec vulputate, enim et auctor ornare, metus justo tempus justo, id tincidunt lectus nisi eu arcu. Aliquam enim risus, luctus vel sapien eget, cursus blandit tellus. Sed dolor nibh, lacinia vitae sem sed, cursus condimentum tellus. Phasellus a nunc quis lectus facilisis sollicitudin eu quis massa.
+            </p>
+            <p>
+            Nullam sit amet lorem in nisl feugiat faucibus laoreet eget sapien. Fusce vel urna nibh. Pellentesque ut pharetra quam. Proin vestibulum blandit auctor. Nullam luctus varius felis vitae scelerisque. Nunc consequat maximus augue, volutpat feugiat libero rutrum id. Nam vitae lectus nec dui ultricies placerat. Suspendisse ligula eros, auctor a faucibus eget, tempor volutpat sem. Phasellus scelerisque augue ut dui ultrices rutrum. Mauris erat leo, blandit vitae congue euismod, aliquam vitae odio.
+            </p>
+            <p>
+            Aenean gravida enim in enim volutpat egestas. Aenean in pulvinar nisi. Ut imperdiet ac odio ac porttitor. Fusce placerat neque eget neque accumsan rhoncus. Cras vel neque eu libero eleifend rutrum. Donec iaculis magna ac leo tincidunt lacinia. Etiam dapibus, enim tincidunt placerat auctor, ex velit euismod sapien, sit amet sagittis metus nulla aliquet metus. Vivamus vehicula, libero in dapibus elementum, sapien velit semper ante, ut interdum risus orci sed metus. Cras rhoncus dolor a nibh interdum sodales. Praesent iaculis tincidunt leo, et blandit lectus placerat et. Mauris at lacus ipsum.
+            </p>
+            <p>
+            Integer at eros tellus. Duis vel ante quam. Quisque ut nibh et felis gravida mattis. Nulla fermentum nunc luctus lacinia fringilla. Fusce ac vestibulum ex, quis tincidunt massa. Aenean scelerisque ultricies neque vel placerat. Sed egestas ultricies risus, et mollis metus vehicula eget. Aliquam elementum ligula in tellus ultricies viverra. Integer ligula elit, blandit id lacinia quis, sagittis quis leo. Sed euismod erat ipsum, in placerat augue rutrum eget. Donec tortor ipsum, semper id sollicitudin a, accumsan in lorem.
+            </p>
+            <p>
+            Integer ultricies ex eget est luctus, elementum consequat mauris suscipit. Sed non risus id augue tincidunt interdum. Donec nec orci hendrerit, gravida est eget, semper nunc. Cras pulvinar luctus hendrerit. Maecenas volutpat, eros quis mollis pulvinar, neque orci vestibulum libero, sit amet semper odio ligula at neque. Etiam vulputate est ac purus feugiat efficitur. Integer scelerisque nisi nulla, at placerat lorem venenatis in.
+            </p>
+            <p>
+            Vivamus ut scelerisque quam. Duis ut bibendum felis, ut pulvinar orci. Curabitur eget neque in nibh ultrices fermentum eu vel risus. Quisque in turpis ligula. Etiam id viverra lectus. Cras vulputate vel elit eu volutpat. Etiam vitae elit sagittis, eleifend diam et, blandit mi. Donec eleifend sem ligula, non mollis neque finibus sit amet. Mauris quis efficitur turpis. Curabitur non bibendum odio. Integer suscipit rhoncus dui, sed venenatis felis fringilla sit amet. Nam egestas est libero. Nullam convallis sollicitudin sapien. Sed imperdiet faucibus metus a molestie. Duis diam dui, ullamcorper at nunc at, lacinia tempus neque. Ut sit amet justo ut neque aliquet pellentesque vel sed lectus.
+            </p>
+            <p>
+            Vestibulum dapibus quam a massa finibus maximus. Vestibulum enim purus, fermentum ornare enim eu, dictum commodo neque. Aliquam semper tincidunt porta. Vivamus fringilla id sem ac laoreet. Vestibulum vel felis mattis, vulputate tellus et, dignissim nulla. Aliquam ultrices ultrices ex at pellentesque. Integer pellentesque ipsum interdum iaculis pulvinar. Mauris quis lacus ultrices, sodales risus ultricies, dapibus tortor. Proin gravida mattis odio placerat congue. Vivamus pulvinar rhoncus nunc, id commodo odio placerat elementum.
+            </p>
+            <p>
+            Suspendisse quis pharetra quam. Proin vulputate lacus erat, vitae facilisis justo mattis ac. Vivamus tempus aliquam ornare. Sed porta egestas massa, eget aliquam nunc gravida at. Duis porttitor lectus vel tellus tempor, eget dictum orci fermentum. Ut sed augue eget tellus auctor sollicitudin. Donec ut efficitur lacus.
+            </p>
+    </div>
+    <div id="chat-button">채팅</div>
+</body>
+</html>
